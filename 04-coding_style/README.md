@@ -1,4 +1,4 @@
-# Solution for task #4 of the eudyptula challenge.
+# Solution for task #04 of the eudyptula challenge.
 
 to view the solution check commit history on the current directory.
 

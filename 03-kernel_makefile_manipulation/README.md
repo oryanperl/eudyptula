@@ -1,4 +1,4 @@
-# Solution for task #3 of the eudyptula challenge.
+# Solution for task #03 of the eudyptula challenge.
 
 to view the solution:
 1) `cat /eudyptula/clone/path/03-kernel_makefile_manipulation/0001-Added-eudyptula-to-linux-extraversion.patch`

@@ -1,4 +1,4 @@
-# Solution for task #1 of the eudyptula challenge.
+# Solution for task #01 of the eudyptula challenge.
 
 to view the solution:
 1) run `make` in order to build the kernel module.

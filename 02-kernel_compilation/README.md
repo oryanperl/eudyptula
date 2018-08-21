@@ -1,4 +1,4 @@
-# Solution for task #2 of the eudyptula challenge.
+# Solution for task #02 of the eudyptula challenge.
 
 to view the solution:
 
