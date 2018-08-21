@@ -4,7 +4,7 @@
 
 
 static int __init hello_world_init(void) {
-    printk(KERN_INFO "Hello World!");
+    printk(KERN_DEBUG "Hello World!");
     return 0;
 }
 
