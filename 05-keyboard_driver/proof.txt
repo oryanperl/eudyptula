@@ -1,0 +1,41 @@
+[ 6556.128066] usb 3-6: new full-speed USB device number 20 using xhci_hcd
+[ 6556.277329] usb 3-6: New USB device found, idVendor=1532, idProduct=0221, bcdDevice= 2.00
+[ 6556.277335] usb 3-6: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 6556.277338] usb 3-6: Product: Razer BlackWidow Chroma V2
+[ 6556.277342] usb 3-6: Manufacturer: Razer
+[ 6556.296210] input: Razer Razer Lancehead Tournament Edition as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/0003:1532:0060.0035/input/input185
+[ 6556.296315] hid-generic 0003:1532:0060.0035: input,hidraw0: USB HID v1.11 Mouse [Razer Razer Lancehead Tournament Edition] on usb-0000:00:14.0-3/input0
+[ 6556.297036] input: Razer Razer Lancehead Tournament Edition Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:1532:0060.0036/input/input186
+[ 6556.356285] input: Razer Razer Lancehead Tournament Edition Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:1532:0060.0036/input/input187
+[ 6556.356391] input: Razer Razer Lancehead Tournament Edition System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:1532:0060.0036/input/input188
+[ 6556.356484] input: Razer Razer Lancehead Tournament Edition as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:1532:0060.0036/input/input189
+[ 6556.356627] input: Razer Razer Lancehead Tournament Edition as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:1532:0060.0036/input/input190
+[ 6556.356757] hid-generic 0003:1532:0060.0036: input,hidraw1: USB HID v1.11 Keyboard [Razer Razer Lancehead Tournament Edition] on usb-0000:00:14.0-3/input1
+[ 6556.357571] input: Razer Razer Lancehead Tournament Edition as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.2/0003:1532:0060.0037/input/input191
+[ 6556.416369] hid-generic 0003:1532:0060.0037: input,hidraw2: USB HID v1.11 Keyboard [Razer Razer Lancehead Tournament Edition] on usb-0000:00:14.0-3/input2
+[ 6556.418992] input: Razer Razer Firefly as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.0/0003:1532:0C00.0038/input/input192
+[ 6556.419177] hid-generic 0003:1532:0C00.0038: input,hidraw3: USB HID v1.11 Mouse [Razer Razer Firefly] on usb-0000:00:14.0-9/input0
+[ 6556.423447] input: Razer Razer Firefly Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:1532:0C00.0039/input/input193
+[ 6556.481241] input: Razer Razer Firefly Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:1532:0C00.0039/input/input194
+[ 6556.485596] input: Razer Razer Firefly System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:1532:0C00.0039/input/input195
+[ 6556.485640] input: Razer Razer Firefly as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:1532:0C00.0039/input/input196
+[ 6556.485957] input: Razer Razer Firefly as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:1532:0C00.0039/input/input197
+[ 6556.485995] hid-generic 0003:1532:0C00.0039: input,hidraw4: USB HID v1.11 Keyboard [Razer Razer Firefly] on usb-0000:00:14.0-9/input1
+[ 6556.491455] input: Razer Razer Firefly as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.2/0003:1532:0C00.003A/input/input198
+[ 6556.548365] hid-generic 0003:1532:0C00.003A: input,hidraw5: USB HID v1.11 Keyboard [Razer Razer Firefly] on usb-0000:00:14.0-9/input2
+[ 6556.655937] input: Kingston HyperX 7.1 Audio Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-5/3-5:1.3/0003:0951:16A4.003B/input/input199
+[ 6556.712266] input: Kingston HyperX 7.1 Audio as /devices/pci0000:00/0000:00:14.0/usb3/3-5/3-5:1.3/0003:0951:16A4.003B/input/input203
+[ 6556.712356] input: Kingston HyperX 7.1 Audio as /devices/pci0000:00/0000:00:14.0/usb3/3-5/3-5:1.3/0003:0951:16A4.003B/input/input206
+[ 6556.712604] hid-generic 0003:0951:16A4.003B: input,hiddev0,hidraw6: USB HID v1.11 Device [Kingston HyperX 7.1 Audio] on usb-0000:00:14.0-5/input3
+[ 6556.714891] input: Razer Razer BlackWidow Chroma V2 as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.0/0003:1532:0221.003C/input/input212
+[ 6556.772181] hid-generic 0003:1532:0221.003C: input,hidraw7: USB HID v1.11 Keyboard [Razer Razer BlackWidow Chroma V2] on usb-0000:00:14.0-6/input0
+[ 6556.772840] input: Razer Razer BlackWidow Chroma V2 Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.1/0003:1532:0221.003D/input/input213
+[ 6556.832093] input: Razer Razer BlackWidow Chroma V2 Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.1/0003:1532:0221.003D/input/input214
+[ 6556.832275] input: Razer Razer BlackWidow Chroma V2 System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.1/0003:1532:0221.003D/input/input215
+[ 6556.832406] input: Razer Razer BlackWidow Chroma V2 as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.1/0003:1532:0221.003D/input/input216
+[ 6556.832528] input: Razer Razer BlackWidow Chroma V2 as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.1/0003:1532:0221.003D/input/input217
+[ 6556.832688] hid-generic 0003:1532:0221.003D: input,hidraw8: USB HID v1.11 Keyboard [Razer Razer BlackWidow Chroma V2] on usb-0000:00:14.0-6/input1
+[ 6556.833393] input: Razer Razer BlackWidow Chroma V2 as /devices/pci0000:00/0000:00:14.0/usb3/3-6/3-6:1.2/0003:1532:0221.003E/input/input218
+[ 6556.833496] hid-generic 0003:1532:0221.003E: input,hidraw9: USB HID v1.11 Mouse [Razer Razer BlackWidow Chroma V2] on usb-0000:00:14.0-6/input2
+[ 6556.833528] usbcore: registered new interface driver usbhid
+[ 6556.833529] usbhid: USB HID core driver
