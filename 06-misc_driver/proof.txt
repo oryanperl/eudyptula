@@ -1,0 +1,28 @@
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ make
+make -C /lib/modules/4.18.0-eudyptula-10726-g5a06d8e20db5/build M=/opt/code/kernel_develop/eudyptula/06-misc_driver modules
+make[1]: Entering directory '/opt/code/linux'
+Makefile:949: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  CC [M]  /opt/code/kernel_develop/eudyptula/06-misc_driver/eudyptula_misc_device.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /opt/code/kernel_develop/eudyptula/06-misc_driver/eudyptula_misc_device.mod.o
+  LD [M]  /opt/code/kernel_develop/eudyptula/06-misc_driver/eudyptula_misc_device.ko
+make[1]: Leaving directory '/opt/code/linux'
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ sudo insmod eudyptula_misc_device.ko 
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ cat /dev/eudyptula 
+0a02c8c3ca21
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ cat /dev/eudyptula 
+0a02c8c3ca21
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ echo "321" > /dev/eudyptula 
+bash: echo: write error: Invalid argument
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ echo "0a02c8c3ca21" > /dev/eudyptula  && echo "success"
+success
+
+oryan@oryan:/opt/code/kernel_develop/eudyptula/06-misc_driver$ echo "0a02c8c3ca21l" > /dev/eudyptula
+bash: echo: write error: Invalid argument
+
