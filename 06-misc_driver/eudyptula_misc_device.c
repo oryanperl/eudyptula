@@ -22,10 +22,7 @@ static ssize_t eudyptula_misc_write(struct file *filp, const char *buffer,
 				    size_t len, loff_t *offset)
 {
 	ssize_t ret = -1;
-	/* Allocate one extra byte to handle the case in which
-	 * EUDYPTULA_ID is a substring of the given buffer
-	 */
-	char id_buffer[sizeof(EUDYPTULA_ID) + 1] = {0};
+	char id_buffer[sizeof(EUDYPTULA_ID)] = {0};
 
 	ret = simple_write_to_buffer(id_buffer, sizeof(id_buffer), offset,
 				     buffer, len - 1);
