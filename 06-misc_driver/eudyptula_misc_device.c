@@ -15,7 +15,7 @@ static ssize_t eudyptula_misc_read(struct file *filp, char *buffer,
 				   size_t len, loff_t *offset)
 {
 	return simple_read_from_buffer(buffer, len, offset, EUDYPTULA_ID "\n",
-			sizeof(EUDYPTULA_ID) + 1);
+			strlen(EUDYPTULA_ID) + 1);
 }
 
 static ssize_t eudyptula_misc_write(struct file *filp, const char *buffer,
