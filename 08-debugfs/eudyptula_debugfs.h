@@ -1,0 +1,6 @@
+#ifndef __EUDYPTULA_DEBUGFS_H__
+#define __EUDYPTULA_DEBUGFS_H__
+
+#define EUDYPTULA_DEBUGFS_DIRNAME "eudyptula"
+
+#endif // ___EUDYPTULA_DEBUGFS_H__
