@@ -27,5 +27,5 @@ module_init(hello_world_keyboard_driver_init);
 module_exit(hello_world_keyboard_driver_cleanup);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Oryan Perlmutter");
+MODULE_AUTHOR("Oryan Perlmutter <oryan.perl1997@gmail.com>");
 MODULE_DESCRIPTION("Driver which notifies whenever a USB-Keyboard is connected");

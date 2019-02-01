@@ -8,7 +8,7 @@
 #include "eudyptula_misc_device.h"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Oryan Perlmutter");
+MODULE_AUTHOR("Oryan Perlmutter <oryan.perl1997@gmail.com>");
 MODULE_DESCRIPTION("A simple miscellaneous driver which interacts with usermode");
 
 static ssize_t eudyptula_misc_read(struct file *filp, char *buffer,

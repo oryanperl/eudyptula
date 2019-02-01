@@ -8,7 +8,7 @@
 #include "eudyptula_debugfs_id_file.h"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Oryan Perlmutter");
+MODULE_AUTHOR("Oryan Perlmutter <oryan.perl1997@gmail.com>");
 MODULE_DESCRIPTION("A simple module creating a debugfs directory named 'eudyptula' and interacts with usermode");
 
 struct dentry *debugfs_dir;
