@@ -1,6 +1,8 @@
-obj-m += eudyptula_debugfs.o 
+obj-m += eudyptula_debugfs.o
 
-eudyptula_debugfs-objs += eudyptula_debugfs_main.o eudyptula_debugfs_id_file.o
+eudyptula_debugfs-objs += eudyptula_debugfs_main.o
+eudyptula_debugfs-objs += eudyptula_debugfs_id_file.o
+eudyptula_debugfs-objs += eudyptula_debugfs_jiffies_file.o
 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 
