@@ -1,5 +1,4 @@
 #include <linux/fs.h>
-#include <linux/stat.h>
 #include <linux/module.h>
 #include <linux/dcache.h>
 #include <linux/debugfs.h>
@@ -48,8 +47,9 @@ static const struct file_operations id_file_ops = {
  */
 struct dentry *eudyptula_debugfs_create_id_file(struct dentry *parent)
 {
-	return debugfs_create_file(EUDYPTULA_DEBUGFS_ID_FILENAME, S_IRUGO,
-			           parent, NULL, &id_file_ops);
+	return debugfs_create_file(EUDYPTULA_DEBUGFS_ID_FILENAME,
+				   EUDYPTULA_ID_FILE_PERM, parent,
+				   NULL, &id_file_ops);
 }
 
 /**

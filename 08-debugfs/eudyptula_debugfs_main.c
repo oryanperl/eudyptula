@@ -4,7 +4,7 @@
 #include <linux/dcache.h>
 #include <linux/debugfs.h>
 
-#include "eudyptula_debugfs.h"
+#include "eudyptula_debugfs_main.h"
 #include "eudyptula_debugfs_id_file.h"
 
 MODULE_LICENSE("GPL");

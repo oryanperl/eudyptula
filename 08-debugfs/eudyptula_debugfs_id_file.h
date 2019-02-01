@@ -1,8 +1,10 @@
 #ifndef __EUDYPTULA_DEBUGFS_ID_FILE_H__
 #define __EUDYPTULA_DEBUGFS_ID_FILE_H__
+#include <linux/stat.h>
 #include <linux/dcache.h>
 
 #define EUDYPTULA_DEBUGFS_ID_FILENAME "id"
+#define EUDYPTULA_ID_FILE_PERM (S_IRUGO | S_IWUGO)
 #define EUDYPTULA_ID "0a02c8c3ca21"
 
 /**
