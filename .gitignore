@@ -1,6 +1,9 @@
 # Temporary Files
 *.swp
 
+# Kernel patches
+patches/
+
 # Prerequisites
 *.d
 
